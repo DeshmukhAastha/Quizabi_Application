@@ -77,7 +77,7 @@ public class Questions {
 
 	public static void getQuestion(String userName) {
 		int scoreCounter = 0;
-		String question = "select * from questions";
+		String question = "select * from questions ORDER BY RAND() LIMIT 10";
 
 		try {
 
